@@ -15,7 +15,21 @@ function writePassword() {
 }
 
 var generatePassword = function() {
-  console.log("this function call works!");
+  
+  var passLengthPrompt = window.prompt("testing testing is this thing on?")
+
+    if (passLengthPrompt >= 8 && passLengthPrompt <= 128) {
+
+        console.log("Damn, this works?");
+
+    } else {
+
+        passLengthPrompt = window.alert("Invalid");
+
+        console.log("Yikes...");
+        return generatePassword();
+    }
+
 };
 
 // Add event listener to generate button
