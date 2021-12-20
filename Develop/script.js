@@ -26,7 +26,15 @@ var generatePassword = function() {
 };
 
 
-// BELOW ARE ALL PROMPT FUNCTIONS REFERRED TO IN generatePassword
+// BELOW ARE ALL PROMPT FUNCTIONS REFERRED TO IN generatePassword.
+
+// passLength contains a prompt. 
+// --It checks for user input and determines if it is greater than or equal to 8 AND less than or equal to 128. 
+// --If user input is not within the specified range, it informs them of their mistake and loops back for them to try again.
+// The other three: passSpCharacter, passUpperCase, and passLowerCase all contain a confirm.
+// --If the user selects OK, they are TRUE.
+// --If the user selects CANCEL, they are FALSE.
+
 
 // PASSWORD LENGTH 
 
@@ -78,7 +86,7 @@ var passUpperCase = function() {
   } else {
 
     console.log("upper case did not work")
-    
+
   }
 }
 
