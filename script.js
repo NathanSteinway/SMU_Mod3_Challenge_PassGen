@@ -48,14 +48,6 @@ var userInput = function() {
 var userInputArray = [];
 
 var userChoices = function() {
-  // window.prompt() that checks if the given number is >=8 && <= 128
-  // -- If there is no error, it resolves. If there is an error, it displays the error message then loops back to the entry field.
-
-    if (passLengthPrompt >= 8 && passLengthPrompt <= 128.0) {
-
-        userInputArray = userInputArray.concat(passLengthPrompt);
-
-    }
 
   // window.confirm() that sets passSpCharacterConfirm to TRUE if the user hits OK
   // Sets passSpCharacterConfirm to FALSE if user hits CANCEL.
@@ -107,7 +99,7 @@ var generatePassword = function() {
 
   for (i = 0; i < passLengthPrompt; i++) {
 
-    newPassword += userInputArray[Math.floor(Math.random() * (userInputArray.length))];
+    newPassword += userInputArray[Math.floor(Math.random() * (userInputArray.length -1))];
 
     }
   
