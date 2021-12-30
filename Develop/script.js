@@ -31,7 +31,7 @@ var userInput = function() {
 
   passLengthPrompt = window.prompt("How long would you like your password to be? It must be between 8 and 126 characters long.");
 
-    if (passLengthPrompt < 8 || passLengthPrompt > 128) {
+    if (passLengthPrompt < 8 || passLengthPrompt > 126) {
 
       return userInput();
 
