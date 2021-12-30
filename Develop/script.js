@@ -29,7 +29,7 @@ var userInput = function() {
 
   // variables used to accept user input and hold boolean values
 
-  passLengthPrompt = window.prompt("How long would you like your password to be? It must be between 8 and 126 characters long.");
+  passLengthPrompt = window.prompt("How long would you like your password to be? It must be between 8 and 128 characters long.");
 
     if (passLengthPrompt < 8 || passLengthPrompt > 128) {
 
