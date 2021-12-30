@@ -22,4 +22,12 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
+MOCK-UP
+
+![03-javascript-homework-demo](https://user-images.githubusercontent.com/93408466/147719417-77774457-57b3-4eb5-a9fc-0b8d7211367c.png)
+
+COMPLETED PRODUCT
+
+<img width="641" alt="chrome_t3sEaJrXiX" src="https://user-images.githubusercontent.com/93408466/147719435-1efae7a8-d854-4f8c-a907-6fe31cde4597.png">
+
 
